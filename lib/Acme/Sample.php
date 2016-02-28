@@ -14,4 +14,8 @@ class Sample
     {
         return 'Hello ' . $name;
     }
+    public function say1($name)
+    {
+        return 'Hello1 ' . $name;
+    }
 }

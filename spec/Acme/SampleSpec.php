@@ -16,4 +16,9 @@ class SampleSpec extends ObjectBehavior
     {
         $this->say('TDDBC')->shouldBeEqualTo('Hello TDDBC');
     }
+
+    function it_said_formats_hello_name1()
+    {
+        $this->say1('TDDBC')->shouldBeEqualTo('Hello1 TDDBC');
+    }
 }
